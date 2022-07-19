@@ -6,9 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.ydb</groupId>
-    <version>1.0.0</version>
-
     <artifactId>ydb-proto-api</artifactId>
+    <version>1.1.0</version>
+
     <name>YDB Java Protocol Buffers IDL</name>
     <description>Generated from Protocol Buffers IDL Java sources</description>
 
