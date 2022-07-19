@@ -14,9 +14,9 @@ The recommended way to use the YDB Java Protobuf in your project is to consume i
 Specify the YDB Java Protobuf module in the dependencies:
 
 ```xml
-    <dependency>
-        <groupId>tech.ydb</groupId>
-        <artifactId>ydb-proto-api</artifactId>
-        <version>0.9.0</version>
-    </dependency>
+<dependency>
+    <groupId>tech.ydb</groupId>
+    <artifactId>ydb-proto-api</artifactId>
+    <version>1.1.0</version>
+</dependency>
 ```
