@@ -7,7 +7,7 @@ Project includes code generation from YDB protos
 
 #### Minimum requirements ####
 
-To use YDB Java SDK you will need **Java 1.8+**. 
+To use YDB Java Protobuf you will need **Java 1.8+**. 
 
 #### Usage
 The recommended way to use the YDB Java Protobuf in your project is to consume it from Maven.
