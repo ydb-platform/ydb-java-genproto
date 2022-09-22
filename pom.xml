@@ -7,7 +7,7 @@
 
     <groupId>tech.ydb</groupId>
     <artifactId>ydb-proto-api</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
 
     <name>YDB Java Protocol Buffers IDL</name>
     <description>Generated from Protocol Buffers IDL Java sources</description>
