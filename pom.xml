@@ -7,7 +7,7 @@
 
     <groupId>tech.ydb</groupId>
     <artifactId>ydb-proto-api</artifactId>
-    <version>1.2.2</version>
+    <version>1.3.0</version>
 
     <name>YDB Java Protocol Buffers IDL</name>
     <description>Generated from Protocol Buffers IDL Java sources</description>
@@ -56,10 +56,6 @@
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-protobuf</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.grpc</groupId>
-            <artifactId>grpc-netty</artifactId>
         </dependency>
         <dependency>
             <groupId>io.grpc</groupId>
