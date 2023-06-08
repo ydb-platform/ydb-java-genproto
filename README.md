@@ -1,5 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/ydb-platform/ydb-java-genproto/blob/master/LICENSE)
 [![Maven metadata URL](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Frepo1.maven.org%2Fmaven2%2Ftech%2Fydb%2Fydb-proto-api%2Fmaven-metadata.xml)](https://mvnrepository.com/artifact/tech.ydb/ydb-proto-api)
+[![Build](https://img.shields.io/github/actions/workflow/status/ydb-platform/ydb-java-genproto/build.yaml)](https://github.com/ydb-platform/ydb-java-genproto/actions/workflows/build.yaml)
 
 ## YDB Java Protobuf api
 
