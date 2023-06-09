@@ -1,0 +1,37 @@
+name: Build YDB GenProto module
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+      type: [opened, reopened, edited]
+
+jobs:
+  build:
+    name: Build YDB GenProto module
+    runs-on: ubuntu-latest
+
+    env:
+        MAVEN_ARGS: --batch-mode --update-snapshots -Dstyle.color=always
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: 8
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Download dependencies
+        run: mvn $MAVEN_ARGS dependency:go-offline
+
+      - name: Build with Maven
+        run: mvn $MAVEN_ARGS package
+
