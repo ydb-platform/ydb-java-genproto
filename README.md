@@ -18,6 +18,6 @@ Specify the YDB Java Protobuf module in the dependencies:
 <dependency>
     <groupId>tech.ydb</groupId>
     <artifactId>ydb-proto-api</artifactId>
-    <version>1.9.3</version>
+    <version>1.9.4</version>
 </dependency>
 ```
